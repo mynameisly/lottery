@@ -1,0 +1,133 @@
+@import './ionicon.css';
+@import './init.scss';
+@import './animate.css';
+@import './colors.scss';
+@import './iconfont.css';
+
+.van-nav-bar {
+    background: $themeColor;
+    color: #ffffff;
+
+    .van-nav-bar__text,
+    .van-nav-bar__title,
+    .van-icon {
+        color: #ffffff;
+    }
+}
+
+.van-dialog__header {
+    background: $themeColor;
+    color: #ffffff;
+    padding: 0;
+    height: 45px;
+    line-height: 45px;
+}
+
+.card-tabs {
+    .van-tabs__nav--card {
+        margin: 0;
+    }
+}
+
+.LotteryBody {
+    padding-top: 45px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.red-text {
+    color: #f00;
+}
+
+.van-grid-item__content::after{
+    border: none;
+}
+
+.van-sidebar-item--select::before{
+    height: 1.2rem;
+    background-color: #0468a5;
+}
+
+.van-sidebar-item--select, .van-sidebar-item--select:active {
+    background-color: #FAFAFA;
+    color: #0468a5;
+}
+
+.van-tree-select__nav{
+    text-align: center;
+}
+
+.van-nav-bar__left{
+    padding: 0 5px;
+}
+
+.van-nav-bar__right{
+    padding: 0 5px;
+}
+
+.van-dialog__header{
+    color: #000;
+    font-size: 26px;
+    background: #fff;
+    .van-dialog__content{
+        span{
+            color: #0468A5;
+            padding-left: 25px;
+            display: block;
+        }
+    }
+}
+.van-tabs__nav{
+    background: #fafafa;
+}
+// .van-tabs__nav--line {
+//     height: 90%;
+//     padding-bottom: 0;
+// }
+.van-tab--active {
+    color: #0468a5;
+    border-bottom: 2px solid #0468a5;
+    font-weight: bold;
+}
+.van-tabs__line{
+    background-color: transparent;
+    height: 0;
+}
+.van-field__label{
+    color: grey;
+}
+
+.van-picker__confirm,
+.van-picker__cancel {
+    color: #0468A5;
+}
+.van-button--default{
+    color: #0468a5;
+}
+.van-cell__title{
+    color: #888888;
+}
+.van-cell__value{
+    color: #000;
+    text-align: left;
+}
+.van-dialog__content{
+    height: 40vh;
+    overflow: auto;
+}
+.van-cell-group{
+    margin-bottom: 10px;
+}
+.van-switch__node{
+    font-size: 30px;
+}
+.van-switch--on{
+    background: #0468a5;
+}
+.van-popup--center{
+    width: 100%;
+}
+.van-notice-bar{
+    color: red;
+    background-color: #F6F7F9;
+}
